@@ -1,31 +1,92 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
+  <title>خليل سليمان - مصمم مواقع</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background: #f0f0f0;
-    }
-
-    img {
-      width: 300px;
-      border-radius: 15px;
-      margin-bottom: 20px;
-    }
-
-    h1 {
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
       color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #1976d2;
+      color: white;
+      padding: 20px;
+      font-size: 20px;
+    }
+    .profile {
+      margin: 30px auto;
+    }
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border: 5px solid #1976d2;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+    section {
+      margin: 40px 20px;
+      text-align: right;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2 {
+      color: #1976d2;
+    }
+    ul {
+      list-style-type: disc;
+      padding-right: 20px;
+    }
+    .contact {
+      background-color: #e3f2fd;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+    a {
+      color: #1976d2;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <img src="logo.jpg" alt="my Logo" />
-  <h1>Welcome to My Website</h1>
-  <p>This is a simple website hosted on GitHub Pages.</p>
+
+  <header>أصمم مواقع بسيطة وعصرية لأصحاب المشاريع والأفراد</header>
+
+  <div class="profile">
+    <img src="logo.jpg" alt="Khalil Souliman" class="profile-img" />
+    <div><strong>Khalil Souliman</strong></div>
+  </div>
+
+  <section>
+    <h2>من أنا؟</h2>
+    <p>أنا خليل سليمان، أعمل في تصميم المواقع باستخدام أدوات سهلة وكود نظيف. أساعد المشاريع الصغيرة والأشخاص في الحصول على موقع إلكتروني بسيط، سريع، وفعّال.</p>
+  </section>
+
+  <section>
+    <h2>خدماتي</h2>
+    <ul>
+      <li>تصميم صفحات تعريفية</li>
+      <li>تعديل على مواقع جاهزة</li>
+      <li>رفع الموقع إلى الإنترنت</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>تواصل معي</h2>
+    <div class="contact">
+      📱 واتساب: <a href="https://wa.me/963936014721" target="_blank">0936014721</a>
+    </div>
+  </section>
+
 </body>
 </html>
